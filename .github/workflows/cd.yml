@@ -19,4 +19,4 @@ jobs:
           go-version: "1.25.1"
 
       - name: Build App
-        uses: Syn-gularity/learn-cicd-starter/scripts/buildprod.sh@latest
+        uses: ./scripts/buildprod.sh@latest
